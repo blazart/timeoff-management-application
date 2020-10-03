@@ -18,6 +18,19 @@ In the following diagram you can see:
 
 CloudFront URL to access to TimeOff Management:  https://d9cjju6z589xo.cloudfront.net/login/
 
+## Architecture
+
+In the following diagram you can see:
+ 
+ * Global Architecture in AWS Cloud
+ * Deployment Strategy of application using Github And Github Actions
+ * Infrastructure deployment using Github + Terraform + Terraform Cloud   
+
+
+![Architecture](time-off-infrastructure.png)
+
+CloudFront URL to access to TimeOff Management:  https://d9cjju6z589xo.cloudfront.net/login/
+
 NOTE: At this moment there is only one environment mounted in AWS (prod) But in the future we are going to implement all the needed environments. 
 
 ### Self hosting
